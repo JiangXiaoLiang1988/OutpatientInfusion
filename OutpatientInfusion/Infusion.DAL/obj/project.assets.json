@@ -3724,11 +3724,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Infusion\\OutpatientInfusion\\Infusion.DAL\\Infusion.DAL.csproj",
+      "projectUniqueName": "D:\\OutPatientInfusion\\OutpatientInfusion\\OutpatientInfusion\\Infusion.DAL\\Infusion.DAL.csproj",
       "projectName": "Infusion.DAL",
-      "projectPath": "D:\\Infusion\\OutpatientInfusion\\Infusion.DAL\\Infusion.DAL.csproj",
+      "projectPath": "D:\\OutPatientInfusion\\OutpatientInfusion\\OutpatientInfusion\\Infusion.DAL\\Infusion.DAL.csproj",
       "packagesPath": "C:\\Users\\jiang\\.nuget\\packages\\",
-      "outputPath": "D:\\Infusion\\OutpatientInfusion\\Infusion.DAL\\obj\\",
+      "outputPath": "D:\\OutPatientInfusion\\OutpatientInfusion\\OutpatientInfusion\\Infusion.DAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
@@ -3744,8 +3744,8 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "D:\\Infusion\\Packages": {},
         "D:\\MyPackage": {},
+        "D:\\OutPatientInfusion\\OutpatientInfusion\\Packages": {},
         "https://www.nuget.org/api/v2/": {}
       },
       "frameworks": {

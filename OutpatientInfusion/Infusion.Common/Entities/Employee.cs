@@ -11,6 +11,7 @@ namespace Infusion.Common.Entities
         public string EmpNo { get; set; }
 
         public string EmpName { get; set; }
+        public string Password { get; set; }
 
         public string Sex { get; set; }
         public string IdNo { get; set; }

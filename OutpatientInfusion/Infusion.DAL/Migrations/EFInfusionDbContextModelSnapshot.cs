@@ -87,6 +87,9 @@ namespace Infusion.DAL.Migrations
                     b.Property<string>("Memo")
                         .HasColumnType("varchar(max)");
 
+                    b.Property<string>("Password")
+                        .HasColumnType("varchar(32)");
+
                     b.Property<string>("Sex")
                         .HasColumnType("char(1)");
 

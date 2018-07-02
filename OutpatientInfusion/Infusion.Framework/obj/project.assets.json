@@ -974,11 +974,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Infusion\\OutpatientInfusion\\Infusion.Framework\\Infusion.Framework.csproj",
+      "projectUniqueName": "D:\\OutPatientInfusion\\OutpatientInfusion\\OutpatientInfusion\\Infusion.Framework\\Infusion.Framework.csproj",
       "projectName": "Infusion.Framework",
-      "projectPath": "D:\\Infusion\\OutpatientInfusion\\Infusion.Framework\\Infusion.Framework.csproj",
+      "projectPath": "D:\\OutPatientInfusion\\OutpatientInfusion\\OutpatientInfusion\\Infusion.Framework\\Infusion.Framework.csproj",
       "packagesPath": "C:\\Users\\jiang\\.nuget\\packages\\",
-      "outputPath": "D:\\Infusion\\OutpatientInfusion\\Infusion.Framework\\obj\\",
+      "outputPath": "D:\\OutPatientInfusion\\OutpatientInfusion\\OutpatientInfusion\\Infusion.Framework\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
@@ -994,8 +994,8 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "D:\\Infusion\\Packages": {},
         "D:\\MyPackage": {},
+        "D:\\OutPatientInfusion\\OutpatientInfusion\\Packages": {},
         "https://www.nuget.org/api/v2/": {}
       },
       "frameworks": {

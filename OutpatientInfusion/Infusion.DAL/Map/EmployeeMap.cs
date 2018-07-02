@@ -30,6 +30,7 @@ namespace Infusion.DAL.Map
             builder.Property(p => p.Memo).HasColumnType("varchar(max)");
             builder.Property(p => p.UpdateUser).HasColumnType("varchar(32)").IsRequired();
             builder.Property(p => p.UpdateTime).HasColumnType("datetime").IsRequired().HasDefaultValueSql("GETDATE()");
+            builder.Property(p => p.Password).HasColumnType("varchar(32)");
         }
     }
 }

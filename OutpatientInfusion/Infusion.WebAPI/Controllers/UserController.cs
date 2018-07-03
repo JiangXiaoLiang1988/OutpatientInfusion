@@ -6,6 +6,8 @@ using Infusion.Common.Entities;
 using Infusion.DAL;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Formatters.Json;
+using Newtonsoft.Json;
 
 namespace Infusion.WebAPI.Controllers
 {
@@ -23,17 +25,19 @@ namespace Infusion.WebAPI.Controllers
                 {
                     // if(employee.Password.Equals(pwd))
                     //{
-                    //    return "成功";
+                    return "成功";
                     //}
                     // else
                     //{
                     //    return "密码不正确";
                     //}
-                    return "成功";
+                    //return   Json()
                 }
                 else
                 {
                     return "用户不存在";
+
+                    //return 
                 }
             }
                 //return "测试";

@@ -304,6 +304,41 @@
           "lib/netstandard2.0/Newtonsoft.Json.dll": {}
         }
       },
+      "ServiceStack.Common/3.0.6": {
+        "type": "package",
+        "dependencies": {
+          "ServiceStack.Text": "(, )"
+        },
+        "compile": {
+          "lib/ServiceStack.Common.dll": {},
+          "lib/ServiceStack.Interfaces.dll": {}
+        },
+        "runtime": {
+          "lib/ServiceStack.Common.dll": {},
+          "lib/ServiceStack.Interfaces.dll": {}
+        }
+      },
+      "ServiceStack.Redis/3.9.71": {
+        "type": "package",
+        "dependencies": {
+          "ServiceStack.Common": "[3.0.0, 4.0.0)"
+        },
+        "compile": {
+          "lib/net35/ServiceStack.Redis.dll": {}
+        },
+        "runtime": {
+          "lib/net35/ServiceStack.Redis.dll": {}
+        }
+      },
+      "ServiceStack.Text/2.9.0": {
+        "type": "package",
+        "compile": {
+          "lib/net35/ServiceStack.Text.dll": {}
+        },
+        "runtime": {
+          "lib/net35/ServiceStack.Text.dll": {}
+        }
+      },
       "System.Memory/4.5.1": {
         "type": "package",
         "dependencies": {
@@ -909,6 +944,44 @@
         "newtonsoft.json.nuspec"
       ]
     },
+    "ServiceStack.Common/3.0.6": {
+      "sha512": "BE06hInBMo4Rt68FdSvZKJjAIJJqa9VtbNFp6yi/7kM9BE0OjuWvwMwYYnTNbFUKN8ENwPOyU3dKIbxJcvTB6g==",
+      "type": "package",
+      "path": "servicestack.common/3.0.6",
+      "files": [
+        "lib/ServiceStack.Common.dll",
+        "lib/ServiceStack.Common.pdb",
+        "lib/ServiceStack.Common.xml",
+        "lib/ServiceStack.Interfaces.dll",
+        "lib/ServiceStack.Interfaces.pdb",
+        "lib/ServiceStack.Interfaces.xml",
+        "servicestack.common.3.0.6.nupkg.sha512",
+        "servicestack.common.nuspec"
+      ]
+    },
+    "ServiceStack.Redis/3.9.71": {
+      "sha512": "+JR9xUX5Ksp5Wnd1x0EZ9O2V3f7dOiT8waQGIi0NHWUH1NVaR1js3Gl37xZHC5lqCqBwyDSsqpKRknPfMTxKtQ==",
+      "type": "package",
+      "path": "servicestack.redis/3.9.71",
+      "files": [
+        "lib/net35/ServiceStack.Redis.XML",
+        "lib/net35/ServiceStack.Redis.dll",
+        "servicestack.redis.3.9.71.nupkg.sha512",
+        "servicestack.redis.nuspec"
+      ]
+    },
+    "ServiceStack.Text/2.9.0": {
+      "sha512": "Y2IaeTWQ4RHfwGIy8Qm5NJDHorwVJ9VlutC/QGr6i9aD9HqhYZegcc0BbPap/YvwL1X0GaIEzIwBi2bkIj0xig==",
+      "type": "package",
+      "path": "servicestack.text/2.9.0",
+      "files": [
+        "lib/net35/ServiceStack.Text.dll",
+        "lib/net35/ServiceStack.Text.pdb",
+        "servicestack.text.2.9.0.nupkg.sha512",
+        "servicestack.text.nuget",
+        "servicestack.text.nuspec"
+      ]
+    },
     "System.Memory/4.5.1": {
       "sha512": "vcG3/MbfpxznMkkkaAblJi7RHOmuP7kawQMhDgLSuA1tRpRQYsFSCTxRSINDUgn2QNn2jWeLxv8er5BXbyACkw==",
       "type": "package",
@@ -963,7 +1036,8 @@
       "Microsoft.Extensions.Configuration >= 2.1.1",
       "Microsoft.Extensions.Configuration.FileExtensions >= 2.1.1",
       "Microsoft.Extensions.Configuration.Json >= 2.1.1",
-      "Microsoft.NETCore.App >= 2.0.0"
+      "Microsoft.NETCore.App >= 2.0.0",
+      "ServiceStack.Redis >= 3.9.71"
     ]
   },
   "packageFolders": {
@@ -1029,6 +1103,10 @@
             "target": "Package",
             "version": "[2.0.0, )",
             "autoReferenced": true
+          },
+          "ServiceStack.Redis": {
+            "target": "Package",
+            "version": "[3.9.71, )"
           }
         },
         "imports": [
@@ -1038,5 +1116,57 @@
         "warn": true
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1603",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "ServiceStack.Redis 3.9.71 依赖于 ServiceStack.Common (>= 3.0.0 && < 4.0.0)，但找不到 ServiceStack.Common 3.0.0。 已解决 ServiceStack.Common 3.0.6 的近似最佳匹配。 ",
+      "libraryId": "ServiceStack.Common",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.0"
+      ]
+    },
+    {
+      "code": "NU1602",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "ServiceStack.Common 3.0.6 未提供依赖项 ServiceStack.Text 的包含下限。已解决 ServiceStack.Text 2.9.0 的近似最佳匹配。",
+      "libraryId": "ServiceStack.Text",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "已使用“.NETFramework,Version=v4.6.1”而不是项目目标框架“.NETCoreApp,Version=v2.0”还原包“ServiceStack.Common 3.0.6”。此包可能与项目不完全兼容。",
+      "libraryId": "ServiceStack.Common",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "已使用“.NETFramework,Version=v4.6.1”而不是项目目标框架“.NETCoreApp,Version=v2.0”还原包“ServiceStack.Redis 3.9.71”。此包可能与项目不完全兼容。",
+      "libraryId": "ServiceStack.Redis",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.0"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "已使用“.NETFramework,Version=v4.6.1”而不是项目目标框架“.NETCoreApp,Version=v2.0”还原包“ServiceStack.Text 2.9.0”。此包可能与项目不完全兼容。",
+      "libraryId": "ServiceStack.Text",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.0"
+      ]
+    }
+  ]
 }

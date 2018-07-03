@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.0",
-    "signature": "779237c9bb6c28110a86e037ed4c789b2abd7998"
+    "signature": "d2dab6b13a1c7772f39f6eb2521c7b4182f537d5"
   },
   "compilationOptions": {},
   "targets": {
@@ -10,7 +10,8 @@
         "dependencies": {
           "Microsoft.Extensions.Configuration": "2.1.1",
           "Microsoft.Extensions.Configuration.FileExtensions": "2.1.1",
-          "Microsoft.Extensions.Configuration.Json": "2.1.1"
+          "Microsoft.Extensions.Configuration.Json": "2.1.1",
+          "ServiceStack.Redis": "3.9.71"
         },
         "runtime": {
           "Infusion.Framework.dll": {}
@@ -114,6 +115,40 @@
           }
         }
       },
+      "ServiceStack.Common/3.0.6": {
+        "dependencies": {
+          "ServiceStack.Text": "2.9.0"
+        },
+        "runtime": {
+          "lib/ServiceStack.Common.dll": {
+            "assemblyVersion": "1.0.4339.6048",
+            "fileVersion": "1.0.4339.6048"
+          },
+          "lib/ServiceStack.Interfaces.dll": {
+            "assemblyVersion": "1.0.4339.6048",
+            "fileVersion": "1.0.4339.6048"
+          }
+        }
+      },
+      "ServiceStack.Redis/3.9.71": {
+        "dependencies": {
+          "ServiceStack.Common": "3.0.6"
+        },
+        "runtime": {
+          "lib/net35/ServiceStack.Redis.dll": {
+            "assemblyVersion": "3.9.71.0",
+            "fileVersion": "3.9.71.0"
+          }
+        }
+      },
+      "ServiceStack.Text/2.9.0": {
+        "runtime": {
+          "lib/net35/ServiceStack.Text.dll": {
+            "assemblyVersion": "2.0.9.41010",
+            "fileVersion": "2.0.9.41010"
+          }
+        }
+      },
       "System.Memory/4.5.1": {
         "dependencies": {
           "System.Runtime.CompilerServices.Unsafe": "4.5.1"
@@ -203,6 +238,27 @@
       "sha512": "sha512-IvJe1pj7JHEsP8B8J8DwlMEx8UInrs/x+9oVY+oCD13jpLu4JbJU2WCIsMRn5C4yW9+DgkaO8uiVE5VHKjpmdQ==",
       "path": "newtonsoft.json/11.0.2",
       "hashPath": "newtonsoft.json.11.0.2.nupkg.sha512"
+    },
+    "ServiceStack.Common/3.0.6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BE06hInBMo4Rt68FdSvZKJjAIJJqa9VtbNFp6yi/7kM9BE0OjuWvwMwYYnTNbFUKN8ENwPOyU3dKIbxJcvTB6g==",
+      "path": "servicestack.common/3.0.6",
+      "hashPath": "servicestack.common.3.0.6.nupkg.sha512"
+    },
+    "ServiceStack.Redis/3.9.71": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+JR9xUX5Ksp5Wnd1x0EZ9O2V3f7dOiT8waQGIi0NHWUH1NVaR1js3Gl37xZHC5lqCqBwyDSsqpKRknPfMTxKtQ==",
+      "path": "servicestack.redis/3.9.71",
+      "hashPath": "servicestack.redis.3.9.71.nupkg.sha512"
+    },
+    "ServiceStack.Text/2.9.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Y2IaeTWQ4RHfwGIy8Qm5NJDHorwVJ9VlutC/QGr6i9aD9HqhYZegcc0BbPap/YvwL1X0GaIEzIwBi2bkIj0xig==",
+      "path": "servicestack.text/2.9.0",
+      "hashPath": "servicestack.text.2.9.0.nupkg.sha512"
     },
     "System.Memory/4.5.1": {
       "type": "package",

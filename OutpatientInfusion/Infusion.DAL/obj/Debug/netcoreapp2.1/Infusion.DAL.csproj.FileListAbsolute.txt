@@ -20,3 +20,14 @@ D:\OutPatientInfusion\OutpatientInfusion\OutpatientInfusion\Infusion.DAL\obj\Deb
 D:\OutPatientInfusion\OutpatientInfusion\OutpatientInfusion\Infusion.DAL\obj\Debug\netcoreapp2.1\Infusion.DAL.dll
 D:\OutPatientInfusion\OutpatientInfusion\OutpatientInfusion\Infusion.DAL\obj\Debug\netcoreapp2.1\Infusion.DAL.pdb
 D:\OutPatientInfusion\OutpatientInfusion\OutpatientInfusion\Infusion.DAL\obj\Debug\netcoreapp2.1\Infusion.DAL.csprojAssemblyReference.cache
+D:\InfusionDev\OutpatientInfusion\OutpatientInfusion\Infusion.DAL\bin\Debug\netcoreapp2.1\Infusion.DAL.deps.json
+D:\InfusionDev\OutpatientInfusion\OutpatientInfusion\Infusion.DAL\bin\Debug\netcoreapp2.1\Infusion.DAL.runtimeconfig.json
+D:\InfusionDev\OutpatientInfusion\OutpatientInfusion\Infusion.DAL\bin\Debug\netcoreapp2.1\Infusion.DAL.runtimeconfig.dev.json
+D:\InfusionDev\OutpatientInfusion\OutpatientInfusion\Infusion.DAL\bin\Debug\netcoreapp2.1\Infusion.DAL.dll
+D:\InfusionDev\OutpatientInfusion\OutpatientInfusion\Infusion.DAL\bin\Debug\netcoreapp2.1\Infusion.DAL.pdb
+D:\InfusionDev\OutpatientInfusion\OutpatientInfusion\Infusion.DAL\obj\Debug\netcoreapp2.1\Infusion.DAL.csprojResolveAssemblyReference.cache
+D:\InfusionDev\OutpatientInfusion\OutpatientInfusion\Infusion.DAL\obj\Debug\netcoreapp2.1\Infusion.DAL.csproj.CoreCompileInputs.cache
+D:\InfusionDev\OutpatientInfusion\OutpatientInfusion\Infusion.DAL\obj\Debug\netcoreapp2.1\Infusion.DAL.AssemblyInfoInputs.cache
+D:\InfusionDev\OutpatientInfusion\OutpatientInfusion\Infusion.DAL\obj\Debug\netcoreapp2.1\Infusion.DAL.AssemblyInfo.cs
+D:\InfusionDev\OutpatientInfusion\OutpatientInfusion\Infusion.DAL\obj\Debug\netcoreapp2.1\Infusion.DAL.dll
+D:\InfusionDev\OutpatientInfusion\OutpatientInfusion\Infusion.DAL\obj\Debug\netcoreapp2.1\Infusion.DAL.pdb

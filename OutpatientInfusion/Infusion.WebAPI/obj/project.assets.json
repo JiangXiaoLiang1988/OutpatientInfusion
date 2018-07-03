@@ -12326,11 +12326,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\OutPatientInfusion\\OutpatientInfusion\\OutpatientInfusion\\Infusion.WebAPI\\Infusion.WebAPI.csproj",
+      "projectUniqueName": "D:\\InfusionDev\\OutpatientInfusion\\OutpatientInfusion\\Infusion.WebAPI\\Infusion.WebAPI.csproj",
       "projectName": "Infusion.WebAPI",
-      "projectPath": "D:\\OutPatientInfusion\\OutpatientInfusion\\OutpatientInfusion\\Infusion.WebAPI\\Infusion.WebAPI.csproj",
+      "projectPath": "D:\\InfusionDev\\OutpatientInfusion\\OutpatientInfusion\\Infusion.WebAPI\\Infusion.WebAPI.csproj",
       "packagesPath": "C:\\Users\\jiang\\.nuget\\packages\\",
-      "outputPath": "D:\\OutPatientInfusion\\OutpatientInfusion\\OutpatientInfusion\\Infusion.WebAPI\\obj\\",
+      "outputPath": "D:\\InfusionDev\\OutpatientInfusion\\OutpatientInfusion\\Infusion.WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",

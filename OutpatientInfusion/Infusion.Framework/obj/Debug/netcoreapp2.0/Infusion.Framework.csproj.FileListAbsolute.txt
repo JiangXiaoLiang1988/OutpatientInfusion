@@ -17,3 +17,13 @@ D:\OutPatientInfusion\OutpatientInfusion\OutpatientInfusion\Infusion.Framework\o
 D:\OutPatientInfusion\OutpatientInfusion\OutpatientInfusion\Infusion.Framework\obj\Debug\netcoreapp2.0\Infusion.Framework.dll
 D:\OutPatientInfusion\OutpatientInfusion\OutpatientInfusion\Infusion.Framework\obj\Debug\netcoreapp2.0\Infusion.Framework.pdb
 D:\OutPatientInfusion\OutpatientInfusion\OutpatientInfusion\Infusion.Framework\bin\Debug\netcoreapp2.0\appsettings.json
+D:\InfusionDev\OutpatientInfusion\OutpatientInfusion\Infusion.Framework\bin\Debug\netcoreapp2.0\appsettings.json
+D:\InfusionDev\OutpatientInfusion\OutpatientInfusion\Infusion.Framework\bin\Debug\netcoreapp2.0\Infusion.Framework.deps.json
+D:\InfusionDev\OutpatientInfusion\OutpatientInfusion\Infusion.Framework\bin\Debug\netcoreapp2.0\Infusion.Framework.dll
+D:\InfusionDev\OutpatientInfusion\OutpatientInfusion\Infusion.Framework\bin\Debug\netcoreapp2.0\Infusion.Framework.pdb
+D:\InfusionDev\OutpatientInfusion\OutpatientInfusion\Infusion.Framework\obj\Debug\netcoreapp2.0\Infusion.Framework.csprojResolveAssemblyReference.cache
+D:\InfusionDev\OutpatientInfusion\OutpatientInfusion\Infusion.Framework\obj\Debug\netcoreapp2.0\Infusion.Framework.csproj.CoreCompileInputs.cache
+D:\InfusionDev\OutpatientInfusion\OutpatientInfusion\Infusion.Framework\obj\Debug\netcoreapp2.0\Infusion.Framework.AssemblyInfoInputs.cache
+D:\InfusionDev\OutpatientInfusion\OutpatientInfusion\Infusion.Framework\obj\Debug\netcoreapp2.0\Infusion.Framework.AssemblyInfo.cs
+D:\InfusionDev\OutpatientInfusion\OutpatientInfusion\Infusion.Framework\obj\Debug\netcoreapp2.0\Infusion.Framework.dll
+D:\InfusionDev\OutpatientInfusion\OutpatientInfusion\Infusion.Framework\obj\Debug\netcoreapp2.0\Infusion.Framework.pdb
